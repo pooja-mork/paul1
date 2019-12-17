@@ -1,0 +1,23 @@
+class Hello
+{
+public static void main(String[] args)
+{
+int num,sum=0,rem,orignumber;
+orignumber=num
+while(orignumber!=0)
+{
+rem=orignumber%10;
+sum=sum+rem*rem*rem;
+orignumber=orignumber/10;
+}
+if(sum==num)
+{
+system.out.println("Number is amstrong");
+}
+else
+{
+system.out.println("Number is not Amstrong");
+}
+}
+}
+
